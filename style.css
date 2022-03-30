@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./Norse-Bold.otf);
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+#photoBy {
+    font-size: 12px;
+    color: white;
+}
+
+#photoBy a {
+    color: white;
+}
+
+form {
+    font-size: 10px;
+}
+
+#sideBar {
+    position: relative;
+    margin: 0;
+}
+
+#sideBarOdin {
+    position: absolute;
+    font-family: Norse-Bold;
+    color: white;
+    top: 190px;
+    left: 220px;
+    font-size: 100px;
+}
+
+#sideBarBackground {
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    width: clamp(300px, 100vw, 600px);
+    height: 100px;
+    top: 190px;
+}
+
+img.sideImage {
+    position: absolute;
+    top: 190px;
+    left: 120px;
+    height: 100px;
+}
+
+img.background {
+    width:clamp(300px, 100vw, 600px);
+    height: auto;
+}
