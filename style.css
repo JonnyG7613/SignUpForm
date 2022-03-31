@@ -5,7 +5,7 @@
 
 body {
     display: flex;
-    background-color: rgba(0,0,0,.2);
+    background-color: rgba(0, 0, 0, .2);
     margin: 0;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .letsGo {
     margin-top: 2.5rem;
-    text-align: center;
+    margin-left: 10rem;
     font-size: 1.5em;
     font-style: italic;
 }
@@ -62,7 +62,7 @@ body {
 
 #sideBarBackground {
     position: absolute;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0, 0, 0, .5);
     width: clamp(300px, 100vw, 600px);
     height: 100px;
     top: 190px;
@@ -76,22 +76,20 @@ img.sideImage {
 }
 
 img.background {
-    width:clamp(300px, 100vw, 600px);
+    width: clamp(300px, 100vw, 600px);
     height: auto;
 }
 
 form {
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 200px 200px;
     margin-top: 3rem;
-    margin-left: 6rem;
     font-size: 10px;
-    flex-wrap: wrap;
     gap: 20px;
 }
 
-label, 
+label,
 input {
     display: block;
 
@@ -99,5 +97,33 @@ input {
 
 input {
     height: 1.2rem;
-    border-radius: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .2);
+    border: 3px solid rgba(0, 0, 0, .2);
+}
+
+input.button {
+    margin-top: 50px;
+    width: 10rem;
+    height: 2.5rem;
+    background-color: darkolivegreen;
+    font-weight: 700;
+    font-size: 1rem;
+    border: 3px solid black;
+}
+
+input:focus {
+    border: 3px solid blue;
+    background-color: rgba(0, 0, 0, .1);
+    box-shadow: red;
+    outline: none;
+}
+
+input.button:focus {
+    background-color: darkolivegreen;
+    border: 3px solid black;
+}
+
+input.button:hover {
+    border: none;
 }
