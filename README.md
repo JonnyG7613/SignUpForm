@@ -10,3 +10,5 @@ V 0.2 Basic layout setup.  Fixed margins and most locations via css for desktop.
 V 0.3 Layout finished for desktop setup.  No javascript enabled yet for passwords.
 
 V 0.3.1 Adjusted layout for input bars.
+
+V 0.3.2 Minor layout adjustments.

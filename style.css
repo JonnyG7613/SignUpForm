@@ -55,35 +55,35 @@ body {
     position: absolute;
     font-family: Norse-Bold;
     color: white;
-    top: 190px;
-    left: 220px;
-    font-size: 100px;
+    top: 20vh;
+    left: 250px;
+    font-size: 15vh;
 }
 
 #sideBarBackground {
     position: absolute;
     background-color: rgba(0, 0, 0, .5);
     width: clamp(300px, 100vw, 600px);
-    height: 100px;
-    top: 190px;
+    height: 15vh;
+    top: 20vh;
 }
 
 img.sideImage {
     position: absolute;
-    top: 190px;
+    top: 20vh;
     left: 120px;
-    height: 100px;
+    height: 15vh;
 }
 
 img.background {
     width: clamp(300px, 100vw, 600px);
-    height: auto;
+    /* height: auto; */
 }
 
 form {
     position: relative;
     display: grid;
-    grid-template-columns: 22vw 22vw;
+    grid-template-columns: 26vw 26vw;
     margin-top: 3rem;
     font-size: 10px;
     gap: 20px;
@@ -100,7 +100,7 @@ input {
     border-radius: 5px;
     background-color: rgba(0, 0, 0, .2);
     border: 3px solid rgba(0, 0, 0, .2);
-    width: 20vw;
+    width: 23vw;
 }
 
 input.button {
